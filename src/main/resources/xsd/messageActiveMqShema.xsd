@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ershov.com/order">
+    <element name="messageToQueue">
+        <complexType>
+            <sequence>
+                <element name="message" type="string"/>
+            </sequence>
+            <attribute name="bodyMessage" type="string" use="required"/>
+        </complexType>
+    </element>
+</schema>
